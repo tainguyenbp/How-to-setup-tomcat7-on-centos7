@@ -1,0 +1,80 @@
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.69
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 11 2016 07:57:09 UTC
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.69.0
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.9.1.el7.x86_64
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64/jre
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_181-mockbuild_2018_05_22_00_09-b00
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/share/tomcat
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=UTF-8
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms512m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx512m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:NewSize=256m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxNewSize=256m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=256m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat/endorsed
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/share/tomcat
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/share/tomcat/temp
+Jul 26, 2018 11:27:38 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 26, 2018 11:27:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Jul 26, 2018 11:27:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1355 ms
+Jul 26, 2018 11:27:38 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 26, 2018 11:27:38 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.69
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/share/tomcat/webapps/ROOT.war
+Jul 26, 2018 11:27:57 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jul 26, 2018 11:34:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/share/tomcat/webapps/ROOT.war has finished in 438,910 ms
+Jul 26, 2018 11:34:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Jul 26, 2018 11:34:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 26, 2018 11:34:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 439019 ms

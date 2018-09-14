@@ -1,0 +1,154 @@
+#!/bin/bash
+#
+# tomcat     This shell script takes care of starting and stopping Tomcat
+#
+# chkconfig: - 80 20
+#
+### BEGIN INIT INFO
+# Provides: tomcat
+# Required-Start: $network $syslog
+# Required-Stop: $network $syslog
+# Default-Start:
+# Default-Stop:
+# Description: Release implementation for Servlet 2.5 and JSP 2.1
+# Short-Description: start and stop tomcat
+### END INIT INFO
+
+## Source function library.
+#. /etc/rc.d/init.d/functions
+
+RED='\033[0;31m'
+NC='\033[0m'
+GREEN='\033[0;32m'
+
+CURRENT_DIR="/home/tai"
+logPath="$CURRENT_DIR/log_tomcat"
+
+ROOT_DIR="/usr/share/tomcat/bin"
+
+backup_log_catalina() {
+
+        year=$(date +"%Y")
+        month=$(date +"%-m")
+        day=$(date +"%-d")
+
+        hour=$(date +"%H")
+        munites=$(date +"%M")
+        second=$(date +"%S")
+
+        hms=$hour$munites$second
+        ymd=$year$month$day
+
+        DIRECTORY="$CURRENT_DIR"/log_catalina_backup/"$ymd"
+
+        if [ -d "$DIRECTORY" ];
+                then
+                        echo "Folder $DIRECTORY exists"
+                                cd /var/log/tomcat
+                                tar -czvf "$CURRENT_DIR"/log_catalina_backup/"$ymd"/catanina_"$ymd"_"$hms".tar.gz catalina.*
+                        echo "Backup Catalina.out Done !!!"
+
+        elif [ ! -d "$DIRECTORY" ];
+                then
+                        echo "Folder $DIRECTORY doesnt exists"
+                              mkdir -p "$CURRENT_DIR"/log_catalina_backup/"$ymd"
+                        echo "Creating Foleder $DIRECTORY Done !!!"
+                                cd /var/log/tomcat
+                                tar -czvf "$CURRENT_DIR"/log_catalina_backup/"$ymd"/catanina_"$ymd"_"$hms".tar.gz catalina.*
+                        echo "Backup Catalina.out Done !!!"
+        fi
+}
+
+check_tomcat() {
+
+        ps -ef | grep java | grep tomcat | awk '{print $2}' | wc -l
+
+}
+
+get_pid_tomcat() {
+
+        ps -ef | grep java | grep tomcat | awk '{print $2}'
+       
+}
+
+kill_tomcat() {
+
+		pid_tomcat=`get_pid_tomcat`
+		kill -9 $pid_tomcat
+}
+
+start_tomcat() {
+
+        if [ `check_tomcat` -eq 0 ];
+                then
+                        echo -e "${RED}Service tomcat is not running....................${NC}"
+			      rm -rf /var/log/tomcat/*
+			      "$ROOT_DIR"/setenv.sh
+                              "$ROOT_DIR"/startup.sh
+			echo -e "${RED}Starting service tomcat:                                          [${NC}  ${GREEN}OK${NC}  ${RED}]${NC}"
+
+        elif [ `check_tomcat` -eq 1 ];
+                then
+                         echo -e "${RED}Service tomcat is running....................${NC}"
+			 echo -e "${RED}Starting service tomcat:                                          [${NC}  ${GREEN}OK${NC}  ${RED}]${NC}"
+        fi
+}
+
+stop_tomcat() {
+
+	if [ `check_tomcat` -eq 0 ];
+                then
+                       echo -e "${RED}Stopping service tomcat:                                          [${NC}  ${GREEN}OK${NC}  ${RED}]${NC}"
+                              
+
+        elif [ `check_tomcat` -eq 1 ];
+                then	
+				sleep 1
+                        echo -e "${RED}Stopping service tomcat: waiting for processes${NC} ${GREEN}`get_pid_tomcat`${NC} ${RED}to exit [${NC}  ${GREEN}OK${NC}  ${RED}]${NC}"
+						kill_tomcat
+        fi
+
+}
+
+restart_tomcat() {
+
+	stop_tomcat
+	sleep 1
+	start_tomcat
+
+}
+
+status_tomcat() {
+
+	if [ `check_tomcat` -eq 0 ];
+                then
+			echo -e "${RED}Service tomcat is stopped                                         [${NC}  ${GREEN}OK${NC}  ${RED}]${NC}"
+
+	elif [ `check_tomcat` -eq 1 ];
+                then
+			echo -e "${RED}Sercive tomcat (${NC}${GREEN}pid `get_pid_tomcat`${NC}${RED}) is running...                          [${NC}  ${GREEN}OK${NC}  ${RED}]${NC}"
+			echo -e "`ps -ef | grep tomcat | grep -v status | grep -v grep`"
+	fi
+}
+
+case "$1" in
+  start)
+    start_tomcat
+    ;;
+  stop)
+    stop_tomcat
+    ;;
+  restart)
+    restart_tomcat
+    ;;
+  status)
+    status_tomcat
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart|status}"
+    exit 1
+esac
+
+exit 0
+
+

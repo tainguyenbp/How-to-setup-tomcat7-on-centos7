@@ -1,0 +1,643 @@
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.69
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 11 2016 07:57:09 UTC
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.69.0
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.10.0-862.9.1.el7.x86_64
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64/jre
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_181-mockbuild_2018_05_22_00_09-b00
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/share/tomcat
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=UTF-8
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms512m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx512m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:NewSize=256m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxNewSize=256m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=256m
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+DisableExplicitGC
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat/endorsed
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/share/tomcat
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/share/tomcat/temp
+Jul 26, 2018 11:27:38 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 26, 2018 11:27:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Jul 26, 2018 11:27:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1355 ms
+Jul 26, 2018 11:27:38 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 26, 2018 11:27:38 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.69
+Jul 26, 2018 11:27:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /usr/share/tomcat/webapps/ROOT.war
+Jul 26, 2018 11:27:57 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[CIS] - Loading db configuration.....
+[CIS] - Connection db... jdbc:mysql://127.0.0.1/asterisk?useUnicode=yes&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+[CIS] - Loading db successfully.
+-------------------------- configureMailSender --------------------------
+config ----> [:]
+System.getenv() ---> [TERM:xterm, SHELL:/bin/bash, HISTSIZE:1000, SHLVL:3, XFILESEARCHPATH:/usr/dt/app-defaults/%L/Dt, PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin, SSH_CLIENT:10.10.70.230 32878 22, MAIL:/var/spool/mail/root, USER:root, HOSTNAME:cc-buildtest-system, PWD:/root, SSH_TTY:/dev/pts/0, HISTCONTROL:ignoredups, HOME:/root, LOGNAME:root, LESSOPEN:||/usr/bin/lesspipe.sh %s, XDG_SESSION_ID:142, LS_COLORS:rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:, NLSPATH:/usr/dt/lib/nls/msg/%L/%N.cat, SSH_CONNECTION:10.10.70.230 32878 10.10.70.202 22, XDG_RUNTIME_DIR:/run/user/0, LANG:en_US.UTF-8]
+loading security config ...
+test doWithSpring ------------>
+datasourcesssss ---> loadConfig
+configFile ----->/etc/ciscfg/cis-ext-db.groovy
+watchedResources --->/etc/ciscfg/cis-ext-db.groovy
+dataSources ------------>[name: exten, readOnly: false, driverClassName: com.mysql.jdbc.Driver, url: jdbc:mysql://127.0.0.1/asterisk?useUnicode=yes&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, username: root, password: pbxpassw0rd, parentDs: null, dbCreate: update, dialect: com.lcs.util.MySQLUTF8InnoDBDialect, jndiName: null, pooled: true, loggingSql: false, logSql: false, environments: [development, test, production], domainClasses: [], services: [], hibernate: {}, passwordEncryptionCodec: null]
+here 1 ------------>
+here 2 ------------>
+ds ------------>name: exten, readOnly: false, driverClassName: com.mysql.jdbc.Driver, url: jdbc:mysql://127.0.0.1/asterisk?useUnicode=yes&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull, username: root, password: pbxpassw0rd, parentDs: null, dbCreate: update, dialect: com.lcs.util.MySQLUTF8InnoDBDialect, jndiName: null, pooled: true, loggingSql: false, logSql: false, environments: [development, test, production], domainClasses: [], services: [], hibernate: {}, passwordEncryptionCodec: null
+2018-07-26 11:28:17,096 [localhost-startStop-1] ERROR ehcache.Cache  - Unable to set localhost. This prevents creation of a GUID. Cause was: cc-buildtest-system: cc-buildtest-system: Name or service not known
+java.net.UnknownHostException: cc-buildtest-system: cc-buildtest-system: Name or service not known
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1496)
+	at net.sf.ehcache.Cache.<clinit>(Cache.java:143)
+	at net.sf.ehcache.config.ConfigurationHelper.createCache(ConfigurationHelper.java:463)
+	at net.sf.ehcache.config.ConfigurationHelper.createDefaultCache(ConfigurationHelper.java:369)
+	at net.sf.ehcache.CacheManager.configure(CacheManager.java:445)
+	at net.sf.ehcache.CacheManager.init(CacheManager.java:302)
+	at net.sf.ehcache.CacheManager.<init>(CacheManager.java:260)
+	at net.sf.ehcache.hibernate.EhCacheProvider.start(EhCacheProvider.java:128)
+	at org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge.start(RegionFactoryCacheProviderBridge.java:72)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:215)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1327)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:867)
+	at org.codehaus.groovy.grails.orm.hibernate.cfg.GrailsAnnotationConfiguration.buildSessionFactory(GrailsAnnotationConfiguration.java:121)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:860)
+	at org.codehaus.groovy.grails.orm.hibernate.ConfigurableLocalSessionFactoryBean.newSessionFactory(ConfigurableLocalSessionFactoryBean.java:126)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:779)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:322)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:190)
+	at org.codehaus.groovy.grails.orm.support.TransactionManagerPostProcessor.postProcessAfterInstantiation(TransactionManagerPostProcessor.java:77)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1036)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.codehaus.groovy.grails.commons.spring.ReloadAwareAutowireCapableBeanFactory.doCreateBean(ReloadAwareAutowireCapableBeanFactory.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:288)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:413)
+	at org.codehaus.groovy.grails.commons.spring.DefaultRuntimeSpringConfiguration.getApplicationContext(DefaultRuntimeSpringConfiguration.java:154)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:164)
+	at org.codehaus.groovy.grails.commons.spring.GrailsRuntimeConfigurator.configure(GrailsRuntimeConfigurator.java:124)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.configureWebApplicationContext(GrailsConfigUtils.java:120)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.createWebApplicationContext(GrailsContextLoader.java:73)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: cc-buildtest-system: Name or service not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:922)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1316)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1492)
+	... 67 more
+datasourcesssss ---> loadConfig
+configFile ----->/etc/ciscfg/cis-ext-db.groovy
+watchedResources --->/etc/ciscfg/cis-ext-db.groovy
+Setting the database properties
+------------- clear all data ------------- Thu Jul 26 11:28:30 ICT 2018
+------------- load all data ------------- Thu Jul 26 11:28:30 ICT 2018
+------------- finish load all data ------------- Thu Jul 26 11:28:31 ICT 2018
+length ------> [:]
+java.lang.NumberFormatException: For input string: "[:]"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:491)
+	at java.lang.Integer.parseInt(Integer.java:526)
+	at java_lang_Integer$parseInt.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at com.lcs.util.CisUtil.getPrefixLength(CisUtil.groovy:1026)
+	at com.lcs.util.CisUtil$getPrefixLength.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:165)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:169)
+	at com.lcs.util.CisUtil.<clinit>(CisUtil.groovy:143)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:195)
+	at BootStrap$_closure2.class$(BootStrap.groovy)
+	at BootStrap$_closure2.$get$$class$com$lcs$util$CisUtil(BootStrap.groovy)
+	at BootStrap$_closure2.doCall(BootStrap.groovy:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:930)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:282)
+	at groovy.lang.Closure.call(Closure.java:277)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:251)
+	at grails.util.Environment.executeForEnvironment(Environment.java:244)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:220)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:59)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:74)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.createWebApplicationContext(GrailsContextLoader.java:74)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+----------production---------
+UUID ----> 564D1761-817D-CCAE-985A-8BA2031AE132
+Name: ens160 --- MAC: 00:0C:29:1A:E1:32
+===========================================
+key ===> 00:0C:29:1A:E1:32 ----- ens160
+===========================================
+uuid =====> 564D1761-817D-CCAE-985A-8BA2031AE132
+===========================================
+============== getCurrentLicenseFromSystem ===============
+There was some errors while reading license file, reset license to 0!
+generateAMI ----------> 
+Asterisk AMI config ----> 192.168.51.14,127.0.0.1,pbxpassw0rd,5038
+Asterisk AMI config ----> 192.168.51.14,127.0.0.1,pbxpassw0rd,5038
+Asterisk AMI config ----> 192.168.51.14,127.0.0.1,pbxpassw0rd,5038
+Connect for first time ----> 192.168.51.14
+java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.asteriskjava.util.internal.SocketConnectionFacadeImpl.<init>(SocketConnectionFacadeImpl.java:96)
+	at org.asteriskjava.util.internal.SocketConnectionFacadeImpl.<init>(SocketConnectionFacadeImpl.java:66)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.createSocket(ManagerConnectionImpl.java:825)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.connect(ManagerConnectionImpl.java:804)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.doLogin(ManagerConnectionImpl.java:554)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.login(ManagerConnectionImpl.java:499)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.login(ManagerConnectionImpl.java:484)
+	at org.asteriskjava.manager.DefaultManagerConnection.login(DefaultManagerConnection.java:294)
+	at com.lcs.pbx.AsteriskManager.loginSendAction(AsteriskManager.java:198)
+	at com.lcs.pbx.AsteriskManager.<init>(AsteriskManager.java:70)
+	at com.lcs.pbx.AsteriskManagerFactory.getInstance(AsteriskManagerFactory.java:16)
+	at com.lcs.pbx.AsteriskManagerFactory$getInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at com.lcs.cis.core.ManagerService.generateAsteriskManager(ManagerService.groovy:44)
+	at com.lcs.cis.core.ManagerService$$FastClassByCGLIB$$b2ec74f7.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.lcs.cis.core.ManagerService$$EnhancerByCGLIB$$761a4c1d.generateAsteriskManager(<generated>)
+	at com.lcs.cis.core.ManagerService$generateAsteriskManager.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at BootStrap$_closure2_closure4_closure6.doCall(BootStrap.groovy:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at BootStrap$_closure2_closure4_closure6.doCall(BootStrap.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:282)
+	at groovy.lang.Closure.call(Closure.java:277)
+	at grails.util.Environment$EnvironmentBlockEvaluator.execute(Environment.java:264)
+	at grails.util.Environment.executeForEnvironment(Environment.java:245)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:220)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:59)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:74)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.createWebApplicationContext(GrailsContextLoader.java:74)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Connect for first time ----> 192.168.51.14
+java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.asteriskjava.util.internal.SocketConnectionFacadeImpl.<init>(SocketConnectionFacadeImpl.java:96)
+	at org.asteriskjava.util.internal.SocketConnectionFacadeImpl.<init>(SocketConnectionFacadeImpl.java:66)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.createSocket(ManagerConnectionImpl.java:825)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.connect(ManagerConnectionImpl.java:804)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.doLogin(ManagerConnectionImpl.java:554)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.login(ManagerConnectionImpl.java:499)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.login(ManagerConnectionImpl.java:484)
+	at org.asteriskjava.manager.DefaultManagerConnection.login(DefaultManagerConnection.java:294)
+	at com.lcs.pbx.AsteriskManager.loginCollector(AsteriskManager.java:229)
+	at com.lcs.pbx.AsteriskManager.<init>(AsteriskManager.java:71)
+	at com.lcs.pbx.AsteriskManagerFactory.getInstance(AsteriskManagerFactory.java:16)
+	at com.lcs.pbx.AsteriskManagerFactory$getInstance.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at com.lcs.cis.core.ManagerService.generateAsteriskManager(ManagerService.groovy:44)
+	at com.lcs.cis.core.ManagerService$$FastClassByCGLIB$$b2ec74f7.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.lcs.cis.core.ManagerService$$EnhancerByCGLIB$$761a4c1d.generateAsteriskManager(<generated>)
+	at com.lcs.cis.core.ManagerService$generateAsteriskManager.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at BootStrap$_closure2_closure4_closure6.doCall(BootStrap.groovy:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at BootStrap$_closure2_closure4_closure6.doCall(BootStrap.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:282)
+	at groovy.lang.Closure.call(Closure.java:277)
+	at grails.util.Environment$EnvironmentBlockEvaluator.execute(Environment.java:264)
+	at grails.util.Environment.executeForEnvironment(Environment.java:245)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:220)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:59)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:74)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.createWebApplicationContext(GrailsContextLoader.java:74)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+Event Connect for first time ----> 192.168.51.14
+create eventManagerIntance....
+regis event listener... done!!!!
+Connect for first time ----> 192.168.51.14
+java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.asteriskjava.util.internal.SocketConnectionFacadeImpl.<init>(SocketConnectionFacadeImpl.java:96)
+	at org.asteriskjava.util.internal.SocketConnectionFacadeImpl.<init>(SocketConnectionFacadeImpl.java:66)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.createSocket(ManagerConnectionImpl.java:825)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.connect(ManagerConnectionImpl.java:804)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.doLogin(ManagerConnectionImpl.java:554)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.login(ManagerConnectionImpl.java:499)
+	at org.asteriskjava.manager.internal.ManagerConnectionImpl.login(ManagerConnectionImpl.java:484)
+	at org.asteriskjava.manager.DefaultManagerConnection.login(DefaultManagerConnection.java:294)
+	at com.lcs.pbx.AsteriskManager.loginSendAction(AsteriskManager.java:198)
+	at com.lcs.pbx.AsteriskManager$loginSendAction.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at com.lcs.cis.core.ManagerService.generateAsteriskManager(ManagerService.groovy:45)
+	at com.lcs.cis.core.ManagerService$$FastClassByCGLIB$$b2ec74f7.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+	at com.lcs.cis.core.ManagerService$$EnhancerByCGLIB$$761a4c1d.generateAsteriskManager(<generated>)
+	at com.lcs.cis.core.ManagerService$generateAsteriskManager.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at BootStrap$_closure2_closure4_closure6.doCall(BootStrap.groovy:167)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at BootStrap$_closure2_closure4_closure6.doCall(BootStrap.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:282)
+	at groovy.lang.Closure.call(Closure.java:277)
+	at grails.util.Environment$EnvironmentBlockEvaluator.execute(Environment.java:264)
+	at grails.util.Environment.executeForEnvironment(Environment.java:245)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:220)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:59)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:74)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.createWebApplicationContext(GrailsContextLoader.java:74)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+<--- generateAMI
+contextName ----> from-external
+listExt ---> [com.lcs.cis.Extension : 1]
+contextName ----> from-pstn
+listExt ---> [com.lcs.cis.Extension : 2]
+contextName ----> from-trunk
+listExt ---> [com.lcs.cis.Extension : 3]
+starting register default dialplan...
+app features existed
+------------ registerFeatureCode ------------
+Register featurecode <-----------------------> com.lcs.cis.Category : 6
+--------------- end registerFeatureCode --------------------
+------------------ generateAgentDetailDashboard ------------------
+dndHistory size ===> 0
+1/14 agent ===> 50001 - MÔNG THỊ THỦY
+2/14 agent ===> 50002 - NGUYỄN VĂN MÃO
+3/14 agent ===> 50003 - NGUYỄN THỊ PHƯƠNG THẢO
+4/14 agent ===> 50005 - NGUYỄN THỊ BẦU
+5/14 agent ===> 50006 - BÙI THỊ THỦY
+6/14 agent ===> 50007 - TRẦN TIẾN DUY
+7/14 agent ===> 50009 - NGUYỄN THỊ DUNG
+8/14 agent ===> 50010 - ĐÀO HOÀI NAM
+9/14 agent ===> 50012 - ĐỖ ANH LINH
+10/14 agent ===> 50014 - NGUYỄN THỊ VÂN
+11/14 agent ===> 50015 - NGUYỄN THỊ HẢI ANH
+12/14 agent ===> 50016 - LÂN THỊ HUỆ
+13/14 agent ===> 50018 - NGUYỄN TRÀ MY
+14/14 agent ===> 50019 - NGUYỄN KHÁNH ĐỊNH
+-------------------------------------------------------------------
+java.lang.NumberFormatException: For input string: "[:]"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:440)
+	at java.lang.Long.<init>(Long.java:701)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+	at com.lcs.util.CisUtil.getCheckSystemIntervalTime(CisUtil.groovy:1013)
+	at com.lcs.pbx.AMIThreadManager.loadConfig(AMIThreadManager.java:19)
+	at com.lcs.pbx.AMIThreadManager.startThread(AMIThreadManager.java:32)
+	at com.lcs.pbx.AMIThreadManager$startThread.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at BootStrap$_closure2_closure4_closure6.doCall(BootStrap.groovy:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at BootStrap$_closure2_closure4_closure6.doCall(BootStrap.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:282)
+	at groovy.lang.Closure.call(Closure.java:277)
+	at grails.util.Environment$EnvironmentBlockEvaluator.execute(Environment.java:264)
+	at grails.util.Environment.executeForEnvironment(Environment.java:245)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:220)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:59)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:74)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.createWebApplicationContext(GrailsContextLoader.java:74)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:197)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5068)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5584)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:473)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:748)
+add this proxy to manage list ===> 127.0.0.1
+Create new ProxyInstance ===> 127.0.0.1 / ListenEvent: true
+amiUsername ====> manager
+amiPassword ====> pbxpassw0rd
+amiPort ====> 5038
+amiHost ====> 127.0.0.1
+EventConnection has not been established, establish right now...127.0.0.1
+create eventManagerIntance....
+regis event listener... done!!!!
+SendAction connection has not been established, establish right now...127.0.0.1
+CollectorConnection has not been established, establish right now...127.0.0.1
+startThread state before start... ----> NEW
+startThread state after start... ----> RUNNABLE
+AMIThread started with sleeptime: 5000
+---- startUnregisterIllegalExtension -----
+================ loadAllMapData ==================
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at java.net.Socket.connect(Socket.java:529)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1062)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:998)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:916)
+	at sun.net.www.protocol.http.HttpURLConnection$connect.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
+	at com.lcs.cis.ProxyService.sendHttpReloadSipProxy(ProxyService.groovy:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:77)
+	at com.lcs.cis.ProxyService.this$dist$invoke$2(ProxyService.groovy)
+	at com.lcs.cis.ProxyService$1.methodMissing(ProxyService.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:813)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1107)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1060)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:153)
+	at com.lcs.cis.ProxyService$1.run(ProxyService.groovy:80)
+	at java.lang.Thread.run(Thread.java:748)
+================ loadAllMapData complete ==================
+Jul 26, 2018 11:34:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /usr/share/tomcat/webapps/ROOT.war has finished in 438,910 ms
+Jul 26, 2018 11:34:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Jul 26, 2018 11:34:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 26, 2018 11:34:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 439019 ms
